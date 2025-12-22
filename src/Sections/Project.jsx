@@ -103,7 +103,7 @@ const activeproject  = projects[activeIndex];
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: 30 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
-      className={`block text-center text-[clamp(2rem,6vw,5rem)] text-white/95 sm:absolute sm:top-20 sm:left-[35%] lg:left-[-5%] sm:mb-0 
+      className={`block text-center text-[clamp(1rem,4vw,3rem)] text-white/95 sm:absolute sm:left-[35%] lg:left-[-5%] sm:mb-0 bottom-135
         italic font-semibold ${
         isMobile ? "-mt-24" : ""
       }`

@@ -56,14 +56,20 @@ viewport={{once:true,amount:0.4}} // 1st time animation chlae ga aur jab 40% vis
     <p className="mt-2 text-lg sm:text-xl text-white/90 font-semibold">
     Full Stack Developer
     </p>
+    <h3 className="text-2xl mt-4 sm:text-3xl font-bold text-white mb-3">
+  About Me
+    </h3>
     <p className="mt-4 text-gray-300 leading-relaxed text-base sm:text-lg max-w-2xl md:max-w-3xl">
      I build scalable, modern web applications with a strong focus on clean architecture, performance, and user experience.
      Actively seeking full stack internship opportunities to apply my skills, learn from industry professionals, and contribute to real-world, production-ready projects.
      </p >
+     <p className="mt-5 text-gray-400 text-base sm:text-lg"> 
+  I love turning ideas into scalable, user-friendly products that make an impact.
+</p>
 
 <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-5 max-w-xl">
   {stats.map((item,i)=>(
-    <motion.div key={i} className="rounded rounded-xl border border-whire/10 bg-white/5 px-4 py-3 text-center"
+    <motion.div key={i} className="rounded mt-10 rounded-xl border border-whire/10 bg-white/5 px-4 py-3 text-center"
     initial={{opacity:1 , y:10}}
     whileInView={{opacity:1,y:0}}
     transition={{delay:0.05* i , duration:0.4}}
@@ -76,8 +82,8 @@ viewport={{once:true,amount:0.4}} // 1st time animation chlae ga aur jab 40% vis
 </div>
 
 <div className="mt-6 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center md:justify-start">
-  <a href="#projects" className=" inline-flex items-center justify-start rounded-lg bg-white text-black font-semibold px-5 py-3 hover:bg-gray-200 transition">View Projects</a>
-  <a href="#contact" className="inline-flex items-center justify-start rounded-lg border border-white/20 bg-white/10 text-white px-5 ppy-3 hover:bg-white/20 transition">Get in Touch</a>
+  <a href="#projects" className=" inline-flex items-center justify-start rounded-lg bg-white text-black font-semibold px-5 py-3 hover:bg-gray-200 transition mt-10">View Projects</a>
+  <a href="#contact" className="inline-flex items-center justify-start rounded-lg border border-white/20 bg-white/10 text-white px-5 ppy-3 hover:bg-white/20 transition mt-10">Get in Touch</a>
 </div>
 
 
@@ -91,15 +97,6 @@ whileInView={{opacity:1 , x:0}}
 transition={{duration:0.6 }}
 viewport={{once:true, amount:0.4}}
 >
-<h3 className="text-2xl sm:text-3xl font-bold text-white mb-3">
-  About Me
-</h3>
-<p className="text-gray-300 leading-relaxed text-base sm:text-lg">
- I continuously improve my skills by building projects, exploring new technologies, and focusing on performance and usability. I am actively seeking internship opportunities where I can gain real-world industry experience, contribute to meaningful projects, and learn from experienced developers in a collaborative environment.
-</p>
-<p className="mt-4 text-gray-400 text-base sm:text-lg"> 
-  I love turning ideas into scalable, user-friendly products that make an impact.
-</p>
 
 </motion.div>
 
