@@ -140,7 +140,7 @@ bg-gradient-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63]
 Sshadow-lg hover:scale-105 transition-transform transition-All "
 
 >View My Work</a>
-<a href="/Resume.pdf"
+<a href="/Ayush_Resume.pdf"
 download
 className="px-6 py-3 rounded-full text-lg font-medium text-black bg-white hover:bg-gray-200 shadow-lg hover:scale-105 transition-all"
 >My Resume</a>
