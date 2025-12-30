@@ -74,10 +74,10 @@ useEffect(() => {
   const SPEED = 80;
 
   const tick = (now) => {
-    const dt = (now - last)/1000;
+    const dt = (now - last)/2000;
     last = now;
     let next = x.get() + SPEED*dir*dt;
-    const loop = trackRef.current?.scrollWidth/2 || 0;
+    const loop = trackRef.current?.scrollWidth/4 || 0;
 
     if (loop) {
       if(next <= -loop) next += loop;
